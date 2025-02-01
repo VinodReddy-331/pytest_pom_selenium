@@ -1,0 +1,4 @@
+Use @pytest.mark.skip to skip a test unconditionally.
+Use @pytest.mark.skipif to skip a test based on a condition.
+Use pytest.skip() to skip a test dynamically at runtime.
+Use pytestmark to skip all tests in a module.
