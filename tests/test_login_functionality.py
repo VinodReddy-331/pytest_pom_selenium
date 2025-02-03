@@ -29,4 +29,5 @@ class TestLoginFunctionality:
         self.loginObj.enter_email_id()
         self.loginObj.enter_password()
         self.loginObj.click_signin()
+        
         assert browser.title == "GitHub"
